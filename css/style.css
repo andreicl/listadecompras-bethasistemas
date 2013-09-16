@@ -1,0 +1,52 @@
+body {
+	background: #F8F8F8;
+}
+
+header.jumbotron {
+	background: #0058A3;
+    padding: 8px;
+}
+
+.nav-tabs {
+    background: #0058A3;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #004481;
+    box-shadow: 0 0 1px #FFF inset;
+    padding: 8px 8px 0 8px;
+	margin-bottom: 0;
+}
+
+	.nav-tabs > li > a {
+		color: #FFF;
+	}
+	
+		.nav-tabs > li > a:hover {
+			color: #555;
+		}
+	
+		.nav-tabs > li > a:hover > i,
+		.nav-tabs > li.active > a > i  {
+			background-image: url("../img/glyphicons-halflings.png");
+		}
+		
+.group-space {
+	background: #FFF;
+	padding: 8px;
+}	
+
+		.group-space.show-border {
+			border-top: 1px solid #F8F8F8;
+		}
+
+			.group-space.show-border:hover {
+				background: #F8F8F8;
+			}
+		
+input[type="file"] {
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+select {
+	width: 100%;
+}
